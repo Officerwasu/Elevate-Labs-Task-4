@@ -58,3 +58,9 @@ telnet: Unable to connect to remote host: Connection refused
 
 **Allowing Inbound SSH (Port 22):**
 A rule was added to allow inbound TCP traffic on port 22 for SSH.
+
+```bash
+$ sudo ufw allow 22/tcp
+Rule added
+Rule added (v6)
+```
